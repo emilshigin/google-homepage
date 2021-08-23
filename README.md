@@ -1,3 +1,3 @@
-# Google clone for Odin Project
+# Google Clone For Odin Project
 
 
