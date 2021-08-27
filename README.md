@@ -6,4 +6,4 @@
 - Search Bar
 - Two inline buttons
 - Footer
- - This is the only element that adapts to the width
+-- This is the only element that adapts to the width
