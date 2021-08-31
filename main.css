@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    color: #5F6368;
+    font-weight: 400;
+}
+nav{
+    position: fixed;
+    top:0;
+    right: 0px;
+    width: 100%;
+    border: solid black 1px;
+}
+.main{
+    margin-top: 50px;
+    padding-top: 10%; 
+    border: solid black 1px;
+    
+}
+.inline_buttons{
+    display: inline;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li{
+    display: inline;
+    float: right;
+    padding: 10px 15px;
+}
