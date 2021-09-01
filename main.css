@@ -1,26 +1,84 @@
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 body{
     background-color: #FFFFFF;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;;
-    font-size: 14px;
+    font-family:  sans-serif;
     color: #5F6368;
+    font-size: 12px;
     font-weight: 400;
 }
+
 nav{
-    position: fixed;
+    padding-top: 10px;
+    position: absolute;
     top:0;
     right: 0px;
     width: 100%;
-    border: solid black 1px;
+    align-items: center;
 }
-.main{
-    margin-top: 50px;
-    padding-top: 10%; 
-    border: solid black 1px;
+
+svg:hover{
+    fill:#222325;
+    
     
 }
+
+nav button {
+    color: white;
+    background-color: #2d7be0;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #4486F8;
+    box-shadow: 1px 1px 3px #4486F8;
+}
+
+.main{
+    margin-top: 75px;
+    padding-top: 10%; 
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+
+.searchbar{
+    margin: 25px;
+    padding: 10px;
+    min-width: 400px;
+    border-radius: 50px;
+}
+
+.searchbar:hover{ 
+    box-shadow: 1px 1px 5px rgb(206, 204, 204);
+}
+
 .inline_buttons{
     display: inline;
+    padding: 2px;
+}
+
+.inline_buttons button {
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 10px;
+    border: 1px;
+    color: #202124;
+    background-color: #F8F9FA;
+
+}
+
+.inline_buttons button:hover{
+    border: solid 1px #c8c8c8;
 }
 
 footer{
@@ -28,9 +86,16 @@ footer{
     bottom: 0px;
     right: 0px;
     width: 100%;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 25px 5px 15px;
     overflow: hidden;
     background-color: #F2F2F2;
+}
+
+footer a{
+    color: #5F6368;
+}
+footer ul{
+    padding-left: 50px;
 }
 
 ul{
@@ -45,3 +110,4 @@ li{
     float: right;
     padding: 10px 15px;
 }
+
