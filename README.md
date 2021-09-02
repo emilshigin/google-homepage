@@ -1,4 +1,5 @@
 # Google Clone For Odin Project
+link to website:[DEMO](https://emilshigin.github.io/google-homepage/)
 ## Breakdown of Website
 ### The website has 5 parts:
 - Navigation bar the seperated in two
